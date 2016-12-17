@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">My First App</string>
-    <string name="btn_down">Tap me down here!</string>
-    <string name="txt_toptext">Heading section of the window</string>
-    <string name="txt2_text">Sub Heading here.</string>
-
-
-</resources>
