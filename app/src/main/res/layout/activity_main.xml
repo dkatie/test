@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example1.katie.myfirstapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_toptext"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/helloworld"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:text="@string/txt2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:text="@string/btn_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginBottom="96dp"
+        android:id="@+id/button2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/helloworld"
+        android:layout_alignEnd="@+id/helloworld"
+        android:layout_marginTop="43dp"
+        android:id="@+id/editText"
+        android:hint="Your Name"
+        android:contentDescription="The field is for your name"
+        tools:text="Name text field" />
+</RelativeLayout>
